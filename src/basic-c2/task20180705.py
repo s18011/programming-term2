@@ -9,6 +9,6 @@ yakitori_c = 2
 
 rate = 0.8
 
-sum_v = (beal_v * beal_c) + (otumami_v * otumami_c) + (yakitori_v * yakitori_c)
+print(sum_v = (beal_v * beal_c) + (otumami_v * otumami_c) + (yakitori_v * yakitori_c))
 payment = sum_v * rate
 
