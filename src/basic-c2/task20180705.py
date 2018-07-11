@@ -9,9 +9,14 @@ yakitori_c = 2
 
 rate = 0.2
 
+<<<<<<< HEAD
 point_nebiki = -150
 sum_v = (beer_v * beer_c) + (otumami_v * otumami_c) + (yakitori_v * yakitori_c * (1-rate))
 payment = sum_v + point_nebiki
+=======
+print(sum_v = (beal_v * beal_c) + (otumami_v * otumami_c) + (yakitori_v * yakitori_c))
+payment = sum_v * rate
+>>>>>>> fba1b1a4f93cb3588e4d127bbaf50a36f1fe91ab
 
 print("買い物の合計は", sum_v, "円")
 print("割引してもらうと", payment, "円")
